@@ -3,7 +3,7 @@ use std::net::TcpStream;
 use std::net::TcpListener;
 
 fn main() {
-    let listener = TcpListener::bind("127.0.0.1:3333").unwrap();
+    let listener = TcpListener::bind("5.63.157.232:3333").unwrap();
 
     for stream in listener.incoming() {
         let stream = stream.unwrap();
